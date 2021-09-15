@@ -1,21 +1,25 @@
+/* Importação e uso de uma fonte mais bonita */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 *, input, button {
     font-family: 'Poppins', sans-serif;
 }
 
+/* zerando alguns espaçamentos que o navegador adiciona */
 * {
     margin: 0;
     padding: 0;
     outline: 0;
 }
 
+/* estilo do cabeçalho */
 header {
     padding: 16px;
     background-color: #333;
     color: #fff;
 }
 
+/* definição de altura e centralização do elemento <main> */
 main {
     display: flex;
     flex-direction: column;
@@ -24,6 +28,7 @@ main {
     height: 80vh;
 }
 
+/* cor tamanho largura e outros detalhes da div que abriga os inputs */
 main #conteudo {
     background-color: #333;
     color: #fff;
@@ -32,15 +37,18 @@ main #conteudo {
     border-radius: 8px;
 }
 
+/* ajuste nos inputs, deixando um abaixo do outro */
 main #conteudo form div {
     display: flex;
     flex-direction: column;
 }
 
+/* tamanho da fonte da label dos inputs */
 main #conteudo form div label {
     font-size: 24px;
 }
 
+/* estilo do input */
 main #conteudo form div input {
     padding: 8px;
     border-radius: 4px;
@@ -49,6 +57,7 @@ main #conteudo form div input {
     font-size: 24px;
 }
 
+/* estilo do button */
 main #conteudo form button {
     width: 100%;
     padding: 8px;
@@ -61,10 +70,12 @@ main #conteudo form button {
     font-weight: bold;
 }
 
+/* troca de cor no hover do button */
 main #conteudo form button:hover {
     background-color: #42ebaa;
 }
 
+/* estilo do texto que mostra o resultado */
 main #conteudo p,
 main #conteudo span {
     font-size: 24px;
